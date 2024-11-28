@@ -1,9 +1,13 @@
 # python -m venv .venv
 
-# pip install -r ./requirements.txt
+# pip install -r .\requirements.txt
 
 fastapi
 uvicorn
+asyncio
+asyncpg
+sqlalchemy
+sqlite
 
 
 # uvicorn main:app --reload
