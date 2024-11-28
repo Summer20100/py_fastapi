@@ -1,5 +1,6 @@
 from fastapi import FastAPI, HTTPException, Path, Query, Body
 from typing import Optional, List, Dict, Annotated
+from model import Post, User, PostCreate, UserCreate
 
 
 app = FastAPI()
